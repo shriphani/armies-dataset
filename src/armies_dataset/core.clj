@@ -5,16 +5,18 @@
             [clojure.string :as string]
             [net.cgrand.enlive-html :as html])
   (:use [clojure.pprint :only [pprint]])
-  (:import [java.io StringReader PushbackReader]))
+  (:import [java.io StringReader PushbackReader]
+           [com.google.common.base CharMatcher]))
 
 (def *src-urls*
   {:1000-1499 "http://en.wikipedia.org/wiki/List_of_wars_1000%E2%80%931499"
    :1500-1799 "http://en.wikipedia.org/wiki/List_of_wars_1500%E2%80%931799"
    :1800-1899 "http://en.wikipedia.org/wiki/List_of_wars_1800%E2%80%9399"
    :1900-1944 "http://en.wikipedia.org/wiki/List_of_wars_1900%E2%80%9344"
-   :1945-1989 "http://en.wikipedia.org/wiki/List_of_wars_1990%E2%80%932002"
-   :1990-2002 "http://en.wikipedia.org/wiki/List_of_wars_2003%E2%80%9310"
-   :2003-2010 "http://en.wikipedia.org/wiki/List_of_wars_2011%E2%80%93present"})
+   :1945-1989 "http://en.wikipedia.org/wiki/List_of_wars_1945%E2%80%9389"
+   :1990-2002 "http://en.wikipedia.org/wiki/List_of_wars_1990%E2%80%932002"
+   :2003-2010 "http://en.wikipedia.org/wiki/List_of_wars_2003%E2%80%9310"
+   :2011-present "http://en.wikipedia.org/wiki/List_of_wars_2011%E2%80%93present"})
 
 (def *corpus-file* "wars_1000_to_now.corpus")
 
@@ -91,3 +93,52 @@
       (PushbackReader.
        (io/reader *corpus-file*)))))
    (io/writer *stats-file*)))
+
+(defn participants-histogram
+  "Generate a file containing
+   start-date and participants in the war"
+  []
+  (sort-by
+   :start
+   (filter
+    (fn [x]
+      (and (-> x :participants empty? not)
+           (-> x :start nil? not)))
+    (map
+     (fn [{start   :start
+          end     :end     
+          name    :name    
+          winners :winners 
+          losers  :losers  }]
+       {:start (try (Integer/parseInt start)
+                    (catch NumberFormatException e nil))
+        :participants (map
+                       #(.trimFrom CharMatcher/WHITESPACE %)
+                       (concat winners losers))})
+     (read
+      (PushbackReader.
+       (io/reader *stats-file*)))))))
+
+(defn participants-histogram-by-decade
+  "A list of participants by the decade"
+  []
+  (sort-by
+   first
+   (map
+    (fn [[decade participants]]
+      [decade
+       (take
+        10
+        (reverse
+         (sort-by second participants)))])
+    (reduce
+     (fn [acc {start :start participants :participants}]
+       (let [decade (* 10 (quot start 10))
+             participants-freq (frequencies participants)]
+         (merge-with
+          (fn [x y]
+            (merge-with + x y))
+          acc
+          {decade participants-freq})))
+     {}
+     (participants-histogram)))))
