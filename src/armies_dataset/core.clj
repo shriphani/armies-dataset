@@ -22,6 +22,8 @@
 
 (def *stats-file* "wars_1000_to_now.clj")
 
+(def *per-decade-file* "participants_by_decade.clj")
+
 (defn download-corpus
   []
   (pprint
@@ -122,23 +124,22 @@
 (defn participants-histogram-by-decade
   "A list of participants by the decade"
   []
-  (sort-by
-   first
-   (map
-    (fn [[decade participants]]
-      [decade
-       (take
-        10
-        (reverse
-         (sort-by second participants)))])
-    (reduce
-     (fn [acc {start :start participants :participants}]
-       (let [decade (* 10 (quot start 10))
-             participants-freq (frequencies participants)]
-         (merge-with
-          (fn [x y]
-            (merge-with + x y))
-          acc
-          {decade participants-freq})))
-     {}
-     (participants-histogram)))))
+  (let [histogram (sort-by
+                   first
+                   (map
+                    (fn [[decade participants]]
+                      [decade
+                       (reverse
+                        (sort-by second participants))])
+                    (reduce
+                     (fn [acc {start :start participants :participants}]
+                       (let [decade (* 10 (quot start 10))
+                             participants-freq (frequencies participants)]
+                         (merge-with
+                          (fn [x y]
+                            (merge-with + x y))
+                          acc
+                          {decade participants-freq})))
+                     {}
+                     (participants-histogram))))]
+    (pprint histogram (io/writer *per-decade-file*))))
