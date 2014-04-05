@@ -2812,226 +2812,427 @@
    "Pulajanes"
    "Sultanate of Sulu"
    "Moro people")}
- {:start "2003",
-  :end "Ongoing",
-  :name "War in Darfur",
-  :winners (),
-  :losers ()}
- {:start "2003",
-  :end "2011",
-  :name "Iraq War",
+ {:start "1990",
+  :end "1990",
+  :name "Invasion of Kuwait",
+  :winners ("Iraq"),
+  :losers (" Kuwait")}
+ {:start "1990",
+  :end "1991",
+  :name "Persian Gulf War",
   :winners
-  ("United States"
-   " United Kingdom"
-   "INC"
-   "New Iraqi Army"
-   "KDP"
-   "PUK"
-   " Australia"
-   " Poland"
-   " South Korea"
-   " Ukraine"
-   " Italy"
-   " Georgia"
-   " Spain"
-   " Denmark"
-   " Netherlands"),
-  :losers
-  ("Iraq"
-   "Ba'ath Loyalists"
-   "SCJL"
-   "Naqshbandi Army"
-   "Islamic State of Iraq"
-   "Al-Qaeda"
-   "Mahdi Army"
-   "Special Groups"
-   "Badr Brigades")}
- {:start "2003",
-  :end "Ongoing",
-  :name "Balochistan conflict",
-  :winners (),
-  :losers ()}
- {:start "2004",
-  :end "Ongoing",
-  :name "War in North-West Pakistan",
-  :winners (),
-  :losers ()}
- {:start "2004",
-  :end "2007",
-  :name "Central African Republic Bush War",
-  :winners ("Central African Republic" "Chad" "MINURCAT" "MICOPAX"),
-  :losers
-  ("UFDR rebels"
-   "APRD rebels"
-   "CPJP rebels"
-   "FDPC rebels"
-   "MLCJ rebels")}
- {:start "2004",
-  :end "Ongoing",
-  :name "Conflict in the Niger Delta",
-  :winners (),
-  :losers ()}
- {:start "2004",
-  :end "Ongoing",
-  :name "Shia insurgency in Yemen",
-  :winners (),
-  :losers ()}
- {:start "2004",
-  :end "Ongoing",
-  :name "South Thailand insurgency",
-  :winners (),
-  :losers ()}
- {:start "2004",
-  :end "Ongoing",
-  :name "Kivu conflict",
-  :winners (),
-  :losers ()}
- {:start "2005",
-  :end "2010",
-  :name "Chadian Civil War ",
-  :winners (" Chad"),
-  :losers ("FUC" "UFDD" "RFC" "Janjaweed")}
- {:start "2005",
-  :end "2008",
-  :name "Mount Elgon insurgency",
-  :winners (" Kenya"),
-  :losers ("Sabaot Land Defence Force")}
- {:start "2006",
-  :end "2011",
-  :name "Fatah–Hamas conflict ",
-  :winners ("Hamas"),
-  :losers ("Fatah")}
- {:start "2006",
-  :end "Ongoing",
-  :name "Mexican Drug War",
-  :winners (),
-  :losers ()}
- {:start "2006",
-  :end "2009",
-  :name "War in Somalia ",
-  :winners
-  ("Invasion phase:"
-   " Ethiopia"
-   "Transitional Federal Government"
-   " Puntland"
-   "Galmudug"
-   "pro-Ethiopian warlords"
+  (" Kuwait"
    " United States"
    " United Kingdom"
-   "AMISOM:"
-   " Uganda"
-   " Burundi"
-   " Kenya"
-   "Insurgency phase:"
-   "Alliance for the Re-liberation of Somalia"
-   "al-Shabaab"
-   "Ras Kamboni Brigades"
-   "Jabhatul Islamiya"
-   "Muaskar Anole"
-   " Eritrea"),
+   " Australia"
+   " Saudi Arabia"
+   " France"
+   " Canada"
+   " Egypt"
+   " Syria"
+   " Qatar"),
+  :losers ("Iraq")}
+ {:start "1990",
+  :end "1993",
+  :name "Rwandan Civil War",
+  :winners ("Rwandan Patriotic Front"),
   :losers
-  ("Invasion phase:"
-   "Islamic Courts Union"
-   "Insurgency phase:"
-   " Ethiopia"
-   "Transitional Federal Government"
-   "pro-Ethiopian warlords")}
- {:start "2007",
-  :end "Ongoing",
-  :name "Operation Enduring Freedom – Trans Sahara",
-  :winners (),
-  :losers ()}
- {:start "2007",
-  :end "2009",
+  ("Rwandan Armed Forces"
+   "Elements of the French Army"
+   " Zairean Special Presidential Division")}
+ {:start "1990",
+  :end "1995",
   :name "Tuareg rebellion ",
-  :winners ("Niger" "Mali"),
-  :losers ("Niger Movement for Justice" "23 May ADC Group")}
- {:start "2007",
-  :end "Ongoing",
-  :name "War in Ingushetia",
-  :winners (),
-  :losers ()}
- {:start "2008",
-  :end "2008",
-  :name "2008 invasion of Anjouan",
-  :winners
-  (" Comoros"
-   "African Union:"
-   " Sudan"
-   " Tanzania"
-   " Senegal"
-   "Libya"
-   " France"),
-  :losers (" Anjouan")}
- {:start "2008",
-  :end "2012",
-  :name "Cambodian–Thai border dispute",
-  :winners (),
-  :losers ()}
- {:start "2008",
-  :end "2008",
-  :name "Djiboutian–Eritrean border conflict",
-  :winners (" Djibouti"),
-  :losers (" Eritrea")}
- {:start "2008",
-  :end "2008",
-  :name "Russia–Georgia war",
-  :winners (" Russia" " South Ossetia" " Abkhazia"),
-  :losers (" Georgia")}
- {:start "2008",
-  :end "2009",
-  :name "Gaza War",
-  :winners (" Israel"),
-  :losers ("Hamas")}
- {:start "2009",
-  :end "Ongoing",
-  :name "Sudanese nomadic conflicts",
-  :winners (),
-  :losers ()}
- {:start "2009",
-  :end "Ongoing",
-  :name "Insurgency in the North Caucasus",
-  :winners (" Russia"),
-  :losers (" Caucasus Emirate")}
- {:start "2009",
-  :end "2009",
-  :name "2009 Boko Haram Uprising",
-  :winners (" Nigeria"),
-  :losers ("Boko Haram")}
- {:start "2009",
-  :end "Ongoing",
-  :name "South Yemen insurgency",
-  :winners (),
-  :losers ()}
- {:start "2009",
-  :end "Ongoing",
-  :name "War in Somalia ",
-  :winners (),
-  :losers ()}
- {:start "2010",
-  :end "Ongoing",
-  :name "Yemeni al-Qaeda crackdown",
-  :winners (),
-  :losers ()}
- {:start "2010",
-  :end "2010",
-  :name "South Kyrgyzstan ethnic clashes",
-  :winners (" Kyrgyzstan"),
-  :losers ("Kyrgyzistani Kyrgyz gangs" "Kyrgyzstani Uzbeks")}
- {:start "2010",
-  :end "2010",
-  :name "2010 Kingston unrest",
-  :winners (" Jamaica"),
-  :losers ("Shower Posse drug cartel")}
- {:start "2010",
-  :end "2011",
-  :name "2010–2011 Ivorian crisis",
-  :winners ("New Forces" "RDR" "UNOCI" " France"),
+  :winners (" Mali" " Niger" "Ghanda Koi"),
   :losers
-  ("Military of Côte d'Ivoire"
-   "Liberian mercenaries"
-   "Young Patriots of Abidjan"
-   "Ivorian Popular Front")}
+  ("Arab Islamic Front of Azawad"
+   "Popular Front for the Liberation of Azawad"
+   "United Movements and Fronts of Azawad"
+   "Front for the Liberation of Air and Azaouak"
+   "Front for the Liberation of Tamoust")}
+ {:start "1991",
+  :end "1991",
+  :name "Ten-Day War",
+  :winners (" Slovenia"),
+  :losers (" SFR Yugoslavia")}
+ {:start "1991",
+  :end "1992",
+  :name "1991–92 South Ossetia War",
+  :winners (" South Ossetia" " North Ossetian volunteers"),
+  :losers (" Georgia")}
+ {:start "1991",
+  :end "1994",
+  :name "Djiboutian Civil War",
+  :winners (" Djibouti" " France"),
+  :losers ("Front for the Restoration of Unity and Democracy")}
+ {:start "1991",
+  :end "1995",
+  :name "Croatian War of Independence",
+  :winners (" Croatia" "Bosnia and Herzegovina"),
+  :losers
+  ("SAO Krajina"
+   "SAO Western Slavonia"
+   "SAO Eastern Slavonia, Baranja and Western Syrmia"
+   " SFR Yugoslavia"
+   " Republic of Serbian Krajina"
+   " Republika Srpska")}
+ {:start "1991",
+  :end "2002",
+  :name "Sierra Leone Civil War",
+  :winners
+  (" Sierra Leone"
+   "Kamajors"
+   " South African Mercenaries"
+   " Nigerian-led ECOMOG Group"
+   " United Kingdom"),
+  :losers
+  ("Revolutionary United Front"
+   "Armed Forces Revolutionary Council"
+   "West Side Boys"
+   " Liberia")}
+ {:start "1991",
+  :end "2002",
+  :name "Algerian Civil War",
+  :winners (" Algerian government" " France"),
+  :losers ("Armed Islamic Group")}
+ {:start "1991",
+  :end "Ongoing",
+  :name "Somali Civil War",
+  :winners (),
+  :losers ()}
+ {:start "1991",
+  :end "1993",
+  :name "Georgian Civil War",
+  :winners ("Georgian State Council" " Russia"),
+  :losers ("Zviadists" "National Guard of Georgia")}
+ {:start "1991",
+  :end "1991",
+  :name "1991 uprisings in Iraq",
+  :winners (),
+  :losers ()}
+ {:start "1992",
+  :end "1992",
+  :name "East Prigorodny Conflict",
+  :winners
+  ("North Ossetian militia and security forces"
+   "North Ossetian Republican Guard"
+   "South Ossetian militia"
+   "Don Cossacks"
+   "Terek Cossacks"
+   "Russian Army"),
+  :losers ("Ingush militia")}
+ {:start "1992",
+  :end "1996",
+  :name "Civil war in Afghanistan ",
+  :winners
+  ("Taliban"
+   "Al Qaeda"
+   "Supported by:"
+   " Saudi Arabia"
+   "Hezbi Islami"
+   "Hezb-i Wahdat"
+   "Junbish-i Milli"),
+  :losers
+  ("Unit Party"
+   "Jamiat-i Islami"
+   "Shura-i Nazar"
+   "Ittehad-i Islami"
+   "Harakat-i Islami"
+   "Hezbi Islami"
+   "Junbish-i Milli"
+   "Hezb-i Wahdat")}
+ {:start "1992",
+  :end "1992",
+  :name "War of Transnistria",
+  :winners
+  (" Transnistria"
+   " Russian Volunteers"
+   "Russian 14th Army"
+   " Ukrainian Volunteers"
+   "Don Cossacks"),
+  :losers (" Moldova" " Romanian Volunteers and advisors")}
+ {:start "1992",
+  :end "1993",
+  :name "War in Abkhazia ",
+  :winners
+  (" Abkhazia"
+   " Russia"
+   "Confederation of Mountain Peoples of the Caucasus"
+   "Russian Cossacks"),
+  :losers (" Georgia")}
+ {:start "1992",
+  :end "1995",
+  :name "Bosnian War",
+  :winners (" Bosnia and Herzegovina" " Croatia" " NATO"),
+  :losers (" Serbia and Montenegro" " Republika Srpska")}
+ {:start "1992",
+  :end "1994",
+  :name "Croat–Bosniak War",
+  :winners (" Bosnia and Herzegovina" "Croatian Defence Forces"),
+  :losers ("Herzeg Bosnia" " Croatia")}
+ {:start "1992",
+  :end "1997",
+  :name "Civil war in Tajikistan",
+  :winners (),
+  :losers ()}
+ {:start "1993",
+  :end "2005",
+  :name "Burundian Civil War",
+  :winners (),
+  :losers ()}
+ {:start "1993",
+  :end "Ongoing",
+  :name "Ethnic conflict in Nagaland",
+  :winners (),
+  :losers ()}
+ {:start "1993",
+  :end "1993",
+  :name "1993 Russian constitutional crisis",
+  :winners (),
+  :losers ()}
+ {:start "1994",
+  :end "1997",
+  :name "Iraqi Kurdish Civil War",
+  :winners (),
+  :losers ()}
+ {:start "1994",
+  :end "1994",
+  :name "Chiapas conflict",
+  :winners ("Zapatista Army of National Liberation"),
+  :losers (" Mexico")}
+ {:start "1994",
+  :end "1994",
+  :name "1994 civil war in Yemen",
+  :winners (" Yemen"),
+  :losers ("Democratic Republic of Yemen")}
+ {:start "1994",
+  :end "1996",
+  :name "First Chechen War",
+  :winners (" Chechen Republic of Ichkeria"),
+  :losers (" Russia")}
+ {:start "1994",
+  :end "1999",
+  :name "Caprivi conflict",
+  :winners (" Namibia"),
+  :losers ("Caprivi Liberation Army")}
+ {:start "1995",
+  :end "1995",
+  :name "Cenepa War",
+  :winners (" Peru"),
+  :losers (" Ecuador")}
+ {:start "1995",
+  :end "2009",
+  :name "Insurgency in Ogaden",
+  :winners (),
+  :losers ()}
+ {:start "1996",
+  :end "2006",
+  :name "Nepalese Civil War",
+  :winners ("CPN"),
+  :losers ("   Nepalese government")}
+ {:start "1996",
+  :end "2001",
+  :name "Civil war in Afghanistan ",
+  :winners
+  ("Islamic State of Afghanistan"
+   "After September 11, 2001:"
+   " United States of America"
+   " United Kingdom"
+   " Canada"
+   " Australia"
+   "Supported by:"
+   " Pakistan"
+   " Saudi Arabia"
+   " Iran"
+   " India"),
+  :losers
+  ("Islamic Emirate of Afghanistan"
+   "al-Qaeda"
+   "Supported by:"
+   " United Arab Emirates")}
+ {:start "1996",
+  :end "1997",
+  :name "First Congo War",
+  :winners ("AFDL" " Uganda" " Rwanda" " Burundi" " Angola"),
+  :losers (" Zaire" "UNITA" "Army for the Liberation of Rwanda")}
+ {:start "1997",
+  :end "1997",
+  :name "Albanian Rebellion of 1997",
+  :winners (" Albania" " Germany" " Italy"),
+  :losers ("Ad hoc local Albanian militias")}
+ {:start "1997",
+  :end "1999",
+  :name "Republic of the Congo Civil War",
+  :winners
+  (" Republic of the Congo"
+   "Cobra militia"
+   "Rwandan Hutu militia"
+   " Angola"),
+  :losers
+  (" Republic of the Congo"
+   "Cocoye militia"
+   "Ninja militia"
+   "Nsiloulou militia"
+   "Mamba militia")}
+ {:start "1997",
+  :end "1997",
+  :name "1997 clashes in Cambodia",
+  :winners ("Hun Sen" " Vietnam"),
+  :losers ("Norodom Ranariddh" "Khmer Rouge")}
+ {:start "1997",
+  :end "2008",
+  :name "Pool Department insurgency",
+  :winners (" Republic of the Congo"),
+  :losers ("Ninja militia")}
+ {:start "1998",
+  :end "1998",
+  :name "War in Abkhazia ",
+  :winners (" Abkhazia"),
+  :losers ("White Legion" "Forest Brotherhood")}
+ {:start "1998",
+  :end "1999",
+  :name "Kosovo War",
+  :winners (" NATO" " Albania" "AFRK" "Kosovo Liberation Army"),
+  :losers (" FR Yugoslavia")}
+ {:start "1998",
+  :end "2000",
+  :name "Eritrean–Ethiopian War",
+  :winners (" Ethiopia"),
+  :losers (" Eritrea")}
+ {:start "1998",
+  :end "2003",
+  :name "Second Congo War",
+  :winners
+  ("Pro-government:"
+   "Dem Rep of Congo"
+   "Namibia"
+   "Zimbabwe"
+   "Angola"
+   "Chad"
+   "Anti-Ugandan forces:"
+   "Lord's Resistance Army"
+   "Sudan"
+   "ADF"
+   "UNRF II"
+   "FNI"
+   "Anti-Rwandan militias:"
+   "FDLR"
+   "Mai-Mai"
+   "Interahamwe"
+   "RDR"
+   "ALiR"
+   "Other Hutu-aligned forces"
+   "Anti-Burundi militias:"
+   "CNDD-FDD"
+   "FROLINA"),
+  :losers
+  ("Rwandan-aligned militias:"
+   "RCD"
+   "RCD-Goma"
+   "Banyamulenge"
+   "Ugandan-aligned militias:"
+   "MLC"
+   "Forces for Renewal"
+   "UPC"
+   "Tutsi-aligned forces"
+   "Anti-Angolan forces:"
+   "UNITA")}
+ {:start "1998",
+  :end "1999",
+  :name "Guinea-Bissau Civil War",
+  :winners ("Rebels led by Mané"),
+  :losers (" Guinea-Bissau" " Senegal" " Guinea")}
+ {:start "1999",
+  :end "1999",
+  :name "Kargil War",
+  :winners (" India"),
+  :losers (" Pakistan")}
+ {:start "1999",
+  :end "2000",
+  :name "1999 East Timorese crisis",
+  :winners (" East Timor" " Australia" "U.N. INTERFET"),
+  :losers ("Pro-Indonesia militia" " Indonesia")}
+ {:start "1999",
+  :end "2001",
+  :name "Insurgency in the Preševo Valley",
+  :winners (" FR Yugoslavia"),
+  :losers ("Liberation Army of Preševo, Medveđa and Bujanovac")}
+ {:start "1999",
+  :end "2003",
+  :name "Second Liberian Civil War",
+  :winners
+  ("Liberians United for Reconciliation and Democracy"
+   "Movement for Democracy in Liberia"),
+  :losers (" Liberia")}
+ {:start "1999",
+  :end "2007",
+  :name "Ituri conflict",
+  :winners (),
+  :losers ()}
+ {:start "1999",
+  :end "1999",
+  :name "War of Dagestan",
+  :winners (" Russia"),
+  :losers ("IIPB" "Shura of Dagestan")}
+ {:start "1999",
+  :end "2009",
+  :name "Second Chechen War",
+  :winners (" Russian Federation" "Republic of Chechnya"),
+  :losers
+  (" Republic of Ichkeria" "Caucasian militants" "Foreign mujahideen")}
+ {:start "2000",
+  :end "2000",
+  :name "Six-Day War ",
+  :winners (" Rwanda"),
+  :losers (" Uganda")}
+ {:start "2000",
+  :end "2005",
+  :name "Second Intifada",
+  :winners (" Israel"),
+  :losers
+  ("Hamas"
+   "Izz ad-Din al-Qassam Brigades"
+   "Fatah"
+   "Al-Aqsa Martyrs' Brigades and Tanzim"
+   "PFLP"
+   "Abu Ali Mustapha Brigades"
+   "DFLP"
+   "PRC"
+   "Islamic Jihad"
+   "al-Quds Brigades"
+   "Other"
+   "Supported by:"
+   "Iraq")}
+ {:start "2001",
+  :end "2001",
+  :name "2001 Indian–Bangladeshi border conflict",
+  :winners (),
+  :losers ()}
+ {:start "2001",
+  :end "2001",
+  :name "Insurgency in the Republic of Macedonia",
+  :winners (),
+  :losers ()}
+ {:start "2001",
+  :end "Ongoing",
+  :name "War in Afghanistan ",
+  :winners (),
+  :losers ()}
+ {:start "2002",
+  :end "Ongoing",
+  :name "Operation Enduring Freedom – Philippines",
+  :winners (),
+  :losers ()}
+ {:start "2002",
+  :end "Ongoing",
+  :name "Operation Enduring Freedom – Horn of Africa",
+  :winners (),
+  :losers ()}
+ {:start "2002",
+  :end "2007",
+  :name "First Ivorian Civil War",
+  :winners (),
+  :losers ()}
  {:start "1010",
   :end "1011",
   :name "Second conflict in the Goryeo–Khitan War",
@@ -3743,6 +3944,226 @@
   :name "Ottoman–Venetian War ",
   :winners (" Ottoman Empire"),
   :losers (" Republic of Venice" "Spain")}
+ {:start "2003",
+  :end "Ongoing",
+  :name "War in Darfur",
+  :winners (),
+  :losers ()}
+ {:start "2003",
+  :end "2011",
+  :name "Iraq War",
+  :winners
+  ("United States"
+   " United Kingdom"
+   "INC"
+   "New Iraqi Army"
+   "KDP"
+   "PUK"
+   " Australia"
+   " Poland"
+   " South Korea"
+   " Ukraine"
+   " Italy"
+   " Georgia"
+   " Spain"
+   " Denmark"
+   " Netherlands"),
+  :losers
+  ("Iraq"
+   "Ba'ath Loyalists"
+   "SCJL"
+   "Naqshbandi Army"
+   "Islamic State of Iraq"
+   "Al-Qaeda"
+   "Mahdi Army"
+   "Special Groups"
+   "Badr Brigades")}
+ {:start "2003",
+  :end "Ongoing",
+  :name "Balochistan conflict",
+  :winners (),
+  :losers ()}
+ {:start "2004",
+  :end "Ongoing",
+  :name "War in North-West Pakistan",
+  :winners (),
+  :losers ()}
+ {:start "2004",
+  :end "2007",
+  :name "Central African Republic Bush War",
+  :winners ("Central African Republic" "Chad" "MINURCAT" "MICOPAX"),
+  :losers
+  ("UFDR rebels"
+   "APRD rebels"
+   "CPJP rebels"
+   "FDPC rebels"
+   "MLCJ rebels")}
+ {:start "2004",
+  :end "Ongoing",
+  :name "Conflict in the Niger Delta",
+  :winners (),
+  :losers ()}
+ {:start "2004",
+  :end "Ongoing",
+  :name "Shia insurgency in Yemen",
+  :winners (),
+  :losers ()}
+ {:start "2004",
+  :end "Ongoing",
+  :name "South Thailand insurgency",
+  :winners (),
+  :losers ()}
+ {:start "2004",
+  :end "Ongoing",
+  :name "Kivu conflict",
+  :winners (),
+  :losers ()}
+ {:start "2005",
+  :end "2010",
+  :name "Chadian Civil War ",
+  :winners (" Chad"),
+  :losers ("FUC" "UFDD" "RFC" "Janjaweed")}
+ {:start "2005",
+  :end "2008",
+  :name "Mount Elgon insurgency",
+  :winners (" Kenya"),
+  :losers ("Sabaot Land Defence Force")}
+ {:start "2006",
+  :end "2011",
+  :name "Fatah–Hamas conflict ",
+  :winners ("Hamas"),
+  :losers ("Fatah")}
+ {:start "2006",
+  :end "Ongoing",
+  :name "Mexican Drug War",
+  :winners (),
+  :losers ()}
+ {:start "2006",
+  :end "2009",
+  :name "War in Somalia ",
+  :winners
+  ("Invasion phase:"
+   " Ethiopia"
+   "Transitional Federal Government"
+   " Puntland"
+   "Galmudug"
+   "pro-Ethiopian warlords"
+   " United States"
+   " United Kingdom"
+   "AMISOM:"
+   " Uganda"
+   " Burundi"
+   " Kenya"
+   "Insurgency phase:"
+   "Alliance for the Re-liberation of Somalia"
+   "al-Shabaab"
+   "Ras Kamboni Brigades"
+   "Jabhatul Islamiya"
+   "Muaskar Anole"
+   " Eritrea"),
+  :losers
+  ("Invasion phase:"
+   "Islamic Courts Union"
+   "Insurgency phase:"
+   " Ethiopia"
+   "Transitional Federal Government"
+   "pro-Ethiopian warlords")}
+ {:start "2007",
+  :end "Ongoing",
+  :name "Operation Enduring Freedom – Trans Sahara",
+  :winners (),
+  :losers ()}
+ {:start "2007",
+  :end "2009",
+  :name "Tuareg rebellion ",
+  :winners ("Niger" "Mali"),
+  :losers ("Niger Movement for Justice" "23 May ADC Group")}
+ {:start "2007",
+  :end "Ongoing",
+  :name "War in Ingushetia",
+  :winners (),
+  :losers ()}
+ {:start "2008",
+  :end "2008",
+  :name "2008 invasion of Anjouan",
+  :winners
+  (" Comoros"
+   "African Union:"
+   " Sudan"
+   " Tanzania"
+   " Senegal"
+   "Libya"
+   " France"),
+  :losers (" Anjouan")}
+ {:start "2008",
+  :end "2012",
+  :name "Cambodian–Thai border dispute",
+  :winners (),
+  :losers ()}
+ {:start "2008",
+  :end "2008",
+  :name "Djiboutian–Eritrean border conflict",
+  :winners (" Djibouti"),
+  :losers (" Eritrea")}
+ {:start "2008",
+  :end "2008",
+  :name "Russia–Georgia war",
+  :winners (" Russia" " South Ossetia" " Abkhazia"),
+  :losers (" Georgia")}
+ {:start "2008",
+  :end "2009",
+  :name "Gaza War",
+  :winners (" Israel"),
+  :losers ("Hamas")}
+ {:start "2009",
+  :end "Ongoing",
+  :name "Sudanese nomadic conflicts",
+  :winners (),
+  :losers ()}
+ {:start "2009",
+  :end "Ongoing",
+  :name "Insurgency in the North Caucasus",
+  :winners (" Russia"),
+  :losers (" Caucasus Emirate")}
+ {:start "2009",
+  :end "2009",
+  :name "2009 Boko Haram Uprising",
+  :winners (" Nigeria"),
+  :losers ("Boko Haram")}
+ {:start "2009",
+  :end "Ongoing",
+  :name "South Yemen insurgency",
+  :winners (),
+  :losers ()}
+ {:start "2009",
+  :end "Ongoing",
+  :name "War in Somalia ",
+  :winners (),
+  :losers ()}
+ {:start "2010",
+  :end "Ongoing",
+  :name "Yemeni al-Qaeda crackdown",
+  :winners (),
+  :losers ()}
+ {:start "2010",
+  :end "2010",
+  :name "South Kyrgyzstan ethnic clashes",
+  :winners (" Kyrgyzstan"),
+  :losers ("Kyrgyzistani Kyrgyz gangs" "Kyrgyzstani Uzbeks")}
+ {:start "2010",
+  :end "2010",
+  :name "2010 Kingston unrest",
+  :winners (" Jamaica"),
+  :losers ("Shower Posse drug cartel")}
+ {:start "2010",
+  :end "2011",
+  :name "2010–2011 Ivorian crisis",
+  :winners ("New Forces" "RDR" "UNOCI" " France"),
+  :losers
+  ("Military of Côte d'Ivoire"
+   "Liberian mercenaries"
+   "Young Patriots of Abidjan"
+   "Ivorian Popular Front")}
  {:start "2011",
   :end "2011",
   :name "Libyan Civil War",
@@ -3863,425 +4284,774 @@
   :name "2014 Russian military intervention in Ukraine",
   :winners (),
   :losers ()}
- {:start "1990",
-  :end "1990",
-  :name "Invasion of Kuwait",
-  :winners ("Iraq"),
-  :losers (" Kuwait")}
- {:start "1990",
-  :end "1991",
-  :name "Persian Gulf War",
+ {:start "1945",
+  :end "1946",
+  :name "War in Vietnam ",
+  :winners (" United Kingdom" " British Raj" "France" "Japan"),
+  :losers ("Viet Minh")}
+ {:start "1945",
+  :end "1949",
+  :name "Indonesian National Revolution",
+  :winners (" Indonesia"),
+  :losers (" Netherlands" " United Kingdom")}
+ {:start "1945",
+  :end "1946",
+  :name "Iran crisis of 1946",
+  :winners ("Iran"),
+  :losers ("Republic of Mahabad" "Azerbaijan People's Republic")}
+ {:start "1946",
+  :end "1954",
+  :name "First Indochina War",
   :winners
-  (" Kuwait"
-   " United States"
-   " United Kingdom"
-   " Australia"
-   " Saudi Arabia"
-   " France"
-   " Canada"
-   " Egypt"
-   " Syria"
-   " Qatar"),
-  :losers ("Iraq")}
- {:start "1990",
-  :end "1993",
-  :name "Rwandan Civil War",
-  :winners ("Rwandan Patriotic Front"),
+  ("Viet Minh" "Pathet Lao" "Khmer Issarak" "United Issarak Front"),
   :losers
-  ("Rwandan Armed Forces"
-   "Elements of the French Army"
-   " Zairean Special Presidential Division")}
- {:start "1990",
-  :end "1995",
-  :name "Tuareg rebellion ",
-  :winners (" Mali" " Niger" "Ghanda Koi"),
-  :losers
-  ("Arab Islamic Front of Azawad"
-   "Popular Front for the Liberation of Azawad"
-   "United Movements and Fronts of Azawad"
-   "Front for the Liberation of Air and Azaouak"
-   "Front for the Liberation of Tamoust")}
- {:start "1991",
-  :end "1991",
-  :name "Ten-Day War",
-  :winners (" Slovenia"),
-  :losers (" SFR Yugoslavia")}
- {:start "1991",
-  :end "1992",
-  :name "1991–92 South Ossetia War",
-  :winners (" South Ossetia" " North Ossetian volunteers"),
-  :losers (" Georgia")}
- {:start "1991",
-  :end "1994",
-  :name "Djiboutian Civil War",
-  :winners (" Djibouti" " France"),
-  :losers ("Front for the Restoration of Unity and Democracy")}
- {:start "1991",
-  :end "1995",
-  :name "Croatian War of Independence",
-  :winners (" Croatia" "Bosnia and Herzegovina"),
-  :losers
-  ("SAO Krajina"
-   "SAO Western Slavonia"
-   "SAO Eastern Slavonia, Baranja and Western Syrmia"
-   " SFR Yugoslavia"
-   " Republic of Serbian Krajina"
-   " Republika Srpska")}
- {:start "1991",
-  :end "2002",
-  :name "Sierra Leone Civil War",
+  ("French Union"
+   "French Fourth Republic"
+   "State of Vietnam"
+   " Cambodia"
+   "Kingdom of Laos")}
+ {:start "1946",
+  :end "1949",
+  :name "Greek Civil War",
+  :winners ("Kingdom of Greece" "Hellenic Army" " United Kingdom"),
+  :losers ("Provisional Democratic Government" "DSE" "NOF partisans")}
+ {:start "1947",
+  :end "1947",
+  :name "Paraguayan Civil War",
   :winners
-  (" Sierra Leone"
-   "Kamajors"
-   " South African Mercenaries"
-   " Nigerian-led ECOMOG Group"
-   " United Kingdom"),
-  :losers
-  ("Revolutionary United Front"
-   "Armed Forces Revolutionary Council"
-   "West Side Boys"
-   " Liberia")}
- {:start "1991",
-  :end "2002",
-  :name "Algerian Civil War",
-  :winners (" Algerian government" " France"),
-  :losers ("Armed Islamic Group")}
- {:start "1991",
-  :end "Ongoing",
-  :name "Somali Civil War",
+  ("Paraguayan Government" "Military of Paraguay" "Colorado Party"),
+  :losers ("Liberal Party" "PRF" "PCP")}
+ {:start "1947",
+  :end "1948",
+  :name "Indo-Pakistani War of 1947",
   :winners (),
   :losers ()}
- {:start "1991",
-  :end "1993",
-  :name "Georgian Civil War",
-  :winners ("Georgian State Council" " Russia"),
-  :losers ("Zviadists" "National Guard of Georgia")}
- {:start "1991",
-  :end "1991",
-  :name "1991 uprisings in Iraq",
-  :winners (),
-  :losers ()}
- {:start "1992",
-  :end "1992",
-  :name "East Prigorodny Conflict",
-  :winners
-  ("North Ossetian militia and security forces"
-   "North Ossetian Republican Guard"
-   "South Ossetian militia"
-   "Don Cossacks"
-   "Terek Cossacks"
-   "Russian Army"),
-  :losers ("Ingush militia")}
- {:start "1992",
-  :end "1996",
-  :name "Civil war in Afghanistan ",
-  :winners
-  ("Taliban"
-   "Al Qaeda"
-   "Supported by:"
-   " Saudi Arabia"
-   "Hezbi Islami"
-   "Hezb-i Wahdat"
-   "Junbish-i Milli"),
+ {:start "1947",
+  :end "1948",
+  :name "1947–48 Civil War in Mandatory Palestine",
+  :winners ("Jews of Palestine" "Haganah" "Irgun" "Lehi"),
   :losers
-  ("Unit Party"
-   "Jamiat-i Islami"
-   "Shura-i Nazar"
-   "Ittehad-i Islami"
-   "Harakat-i Islami"
-   "Hezbi Islami"
-   "Junbish-i Milli"
-   "Hezb-i Wahdat")}
- {:start "1992",
-  :end "1992",
-  :name "War of Transnistria",
-  :winners
-  (" Transnistria"
-   " Russian Volunteers"
-   "Russian 14th Army"
-   " Ukrainian Volunteers"
-   "Don Cossacks"),
-  :losers (" Moldova" " Romanian Volunteers and advisors")}
- {:start "1992",
-  :end "1993",
-  :name "War in Abkhazia ",
-  :winners
-  (" Abkhazia"
-   " Russia"
-   "Confederation of Mountain Peoples of the Caucasus"
-   "Russian Cossacks"),
-  :losers (" Georgia")}
- {:start "1992",
-  :end "1995",
-  :name "Bosnian War",
-  :winners (" Bosnia and Herzegovina" " Croatia" " NATO"),
-  :losers (" Serbia and Montenegro" " Republika Srpska")}
- {:start "1992",
-  :end "1994",
-  :name "Croat–Bosniak War",
-  :winners (" Bosnia and Herzegovina" "Croatian Defence Forces"),
-  :losers ("Herzeg Bosnia" " Croatia")}
- {:start "1992",
-  :end "1997",
-  :name "Civil war in Tajikistan",
-  :winners (),
-  :losers ()}
- {:start "1993",
-  :end "2005",
-  :name "Burundian Civil War",
-  :winners (),
-  :losers ()}
- {:start "1993",
-  :end "Ongoing",
-  :name "Ethnic conflict in Nagaland",
-  :winners (),
-  :losers ()}
- {:start "1993",
-  :end "1993",
-  :name "1993 Russian constitutional crisis",
-  :winners (),
-  :losers ()}
- {:start "1994",
-  :end "1997",
-  :name "Iraqi Kurdish Civil War",
-  :winners (),
-  :losers ()}
- {:start "1994",
-  :end "1994",
-  :name "Chiapas conflict",
-  :winners ("Zapatista Army of National Liberation"),
-  :losers (" Mexico")}
- {:start "1994",
-  :end "1994",
-  :name "1994 civil war in Yemen",
-  :winners (" Yemen"),
-  :losers ("Democratic Republic of Yemen")}
- {:start "1994",
-  :end "1996",
-  :name "First Chechen War",
-  :winners (" Chechen Republic of Ichkeria"),
-  :losers (" Russia")}
- {:start "1994",
-  :end "1999",
-  :name "Caprivi conflict",
-  :winners (" Namibia"),
-  :losers ("Caprivi Liberation Army")}
- {:start "1995",
-  :end "1995",
-  :name "Cenepa War",
-  :winners (" Peru"),
-  :losers (" Ecuador")}
- {:start "1995",
-  :end "2009",
-  :name "Insurgency in Ogaden",
-  :winners (),
-  :losers ()}
- {:start "1996",
-  :end "2006",
-  :name "Nepalese Civil War",
-  :winners ("CPN"),
-  :losers ("   Nepalese government")}
- {:start "1996",
-  :end "2001",
-  :name "Civil war in Afghanistan ",
-  :winners
-  ("Islamic State of Afghanistan"
-   "After September 11, 2001:"
-   " United States of America"
-   " United Kingdom"
-   " Canada"
-   " Australia"
-   "Supported by:"
-   " Pakistan"
-   " Saudi Arabia"
-   " Iran"
-   " India"),
-  :losers
-  ("Islamic Emirate of Afghanistan"
-   "al-Qaeda"
-   "Supported by:"
-   " United Arab Emirates")}
- {:start "1996",
-  :end "1997",
-  :name "First Congo War",
-  :winners ("AFDL" " Uganda" " Rwanda" " Burundi" " Angola"),
-  :losers (" Zaire" "UNITA" "Army for the Liberation of Rwanda")}
- {:start "1997",
-  :end "1997",
-  :name "Albanian Rebellion of 1997",
-  :winners (" Albania" " Germany" " Italy"),
-  :losers ("Ad hoc local Albanian militias")}
- {:start "1997",
-  :end "1999",
-  :name "Republic of the Congo Civil War",
-  :winners
-  (" Republic of the Congo"
-   "Cobra militia"
-   "Rwandan Hutu militia"
-   " Angola"),
-  :losers
-  (" Republic of the Congo"
-   "Cocoye militia"
-   "Ninja militia"
-   "Nsiloulou militia"
-   "Mamba militia")}
- {:start "1997",
-  :end "1997",
-  :name "1997 clashes in Cambodia",
-  :winners ("Hun Sen" " Vietnam"),
-  :losers ("Norodom Ranariddh" "Khmer Rouge")}
- {:start "1997",
-  :end "2008",
-  :name "Pool Department insurgency",
-  :winners (" Republic of the Congo"),
-  :losers ("Ninja militia")}
- {:start "1998",
-  :end "1998",
-  :name "War in Abkhazia ",
-  :winners (" Abkhazia"),
-  :losers ("White Legion" "Forest Brotherhood")}
- {:start "1998",
-  :end "1999",
-  :name "Kosovo War",
-  :winners (" NATO" " Albania" "AFRK" "Kosovo Liberation Army"),
-  :losers (" FR Yugoslavia")}
- {:start "1998",
-  :end "2000",
-  :name "Eritrean–Ethiopian War",
-  :winners (" Ethiopia"),
-  :losers (" Eritrea")}
- {:start "1998",
-  :end "2003",
-  :name "Second Congo War",
-  :winners
-  ("Pro-government:"
-   "Dem Rep of Congo"
-   "Namibia"
-   "Zimbabwe"
-   "Angola"
-   "Chad"
-   "Anti-Ugandan forces:"
-   "Lord's Resistance Army"
-   "Sudan"
-   "ADF"
-   "UNRF II"
-   "FNI"
-   "Anti-Rwandan militias:"
-   "FDLR"
-   "Mai-Mai"
-   "Interahamwe"
-   "RDR"
-   "ALiR"
-   "Other Hutu-aligned forces"
-   "Anti-Burundi militias:"
-   "CNDD-FDD"
-   "FROLINA"),
-  :losers
-  ("Rwandan-aligned militias:"
-   "RCD"
-   "RCD-Goma"
-   "Banyamulenge"
-   "Ugandan-aligned militias:"
-   "MLC"
-   "Forces for Renewal"
-   "UPC"
-   "Tutsi-aligned forces"
-   "Anti-Angolan forces:"
-   "UNITA")}
- {:start "1998",
-  :end "1999",
-  :name "Guinea-Bissau Civil War",
-  :winners ("Rebels led by Mané"),
-  :losers (" Guinea-Bissau" " Senegal" " Guinea")}
- {:start "1999",
-  :end "1999",
-  :name "Kargil War",
-  :winners (" India"),
-  :losers (" Pakistan")}
- {:start "1999",
-  :end "2000",
-  :name "1999 East Timorese crisis",
-  :winners (" East Timor" " Australia" "U.N. INTERFET"),
-  :losers ("Pro-Indonesia militia" " Indonesia")}
- {:start "1999",
-  :end "2001",
-  :name "Insurgency in the Preševo Valley",
-  :winners (" FR Yugoslavia"),
-  :losers ("Liberation Army of Preševo, Medveđa and Bujanovac")}
- {:start "1999",
-  :end "2003",
-  :name "Second Liberian Civil War",
-  :winners
-  ("Liberians United for Reconciliation and Democracy"
-   "Movement for Democracy in Liberia"),
-  :losers (" Liberia")}
- {:start "1999",
-  :end "2007",
-  :name "Ituri conflict",
-  :winners (),
-  :losers ()}
- {:start "1999",
-  :end "1999",
-  :name "War of Dagestan",
-  :winners (" Russia"),
-  :losers ("IIPB" "Shura of Dagestan")}
- {:start "1999",
-  :end "2009",
-  :name "Second Chechen War",
-  :winners (" Russian Federation" "Republic of Chechnya"),
-  :losers
-  (" Republic of Ichkeria" "Caucasian militants" "Foreign mujahideen")}
- {:start "2000",
-  :end "2000",
-  :name "Six-Day War ",
-  :winners (" Rwanda"),
-  :losers (" Uganda")}
- {:start "2000",
-  :end "2005",
-  :name "Second Intifada",
+  ("Arabs of Palestine" "Army of the Holy War" "Arab Liberation Army")}
+ {:start "1948",
+  :end "1949",
+  :name "1948 Arab–Israeli War",
   :winners (" Israel"),
   :losers
-  ("Hamas"
-   "Izz ad-Din al-Qassam Brigades"
-   "Fatah"
-   "Al-Aqsa Martyrs' Brigades and Tanzim"
-   "PFLP"
-   "Abu Ali Mustapha Brigades"
-   "DFLP"
-   "PRC"
-   "Islamic Jihad"
-   "al-Quds Brigades"
-   "Other"
+  ("Egypt" " Iraq" "Transjordan" "Syria" "HWA" "ALA" " Lebanon")}
+ {:start "1948",
+  :end "1948",
+  :name "Costa Rican Civil War",
+  :winners ("National Liberation Army"),
+  :losers ("Government of Costa Rica")}
+ {:start "1948",
+  :end "Ongoing",
+  :name "Internal conflict in Burma",
+  :winners (),
+  :losers ()}
+ {:start "1948",
+  :end "1960",
+  :name "Malayan Emergency",
+  :winners
+  (" United Kingdom"
+   " Australia"
+   " New Zealand"
+   "Federation of Malaya"
+   " Southern Rhodesia"
+   " Fiji"
+   "King's African Rifles"
+   "Nepali Gurkhas"),
+  :losers ("CPM" "MRLA")}
+ {:start "1948",
+  :end "1948",
+  :name "Operation Polo",
+  :winners (" India"),
+  :losers ("Royal State of Hyderabad")}
+ {:start "1950",
+  :end "1951",
+  :name "Invasion of Tibet",
+  :winners (" People's Republic of China"),
+  :losers (" Tibet")}
+ {:start "1950",
+  :end "1953",
+  :name "Korean War",
+  :winners (),
+  :losers ()}
+ {:start "1950",
+  :end "1958",
+  :name "Kuomintang Islamic insurgency in China ",
+  :winners (" People's Republic of China"),
+  :losers ("Republic of China")}
+ {:start "1950",
+  :end "1967",
+  :name "Retribution operations",
+  :winners (" Israel"),
+  :losers ("Palestinian fedayeen" " Egypt" " Jordan" " Syria")}
+ {:start "1952",
+  :end "1960",
+  :name "Mau Mau Uprising",
+  :winners (" United Kingdom"),
+  :losers ("Mau Mau")}
+ {:start "1953",
+  :end "1953",
+  :name "28 Mordad coup",
+  :winners ("Supporters of M. Reza Pahlavi" " CIA" " MI6"),
+  :losers ("Supporters of Mosaddegh" " National Front")}
+ {:start "1953",
+  :end "1959",
+  :name "Cuban Revolution",
+  :winners ("26th of July Movement"),
+  :losers ("Batista Government")}
+ {:start "1953",
+  :end "1975",
+  :name "Laotian Civil War",
+  :winners ("Pathet Lao" "North Vietnam"),
+  :losers
+  ("Kingdom of Laos"
+   "United States of America"
+   " Thailand"
+   " South Vietnam")}
+ {:start "1954",
+  :end "1959",
+  :name "Jebel Akhdar War",
+  :winners ("Sultanate of Muscat and Oman" "Ibriyin tribe"),
+  :losers ("Imamate of Oman" "Ibadi sect")}
+ {:start "1954",
+  :end "1962",
+  :name "Algerian War",
+  :winners ("FLN" "MNA" "PCA"),
+  :losers (" France" "OAS" "FAF")}
+ {:start "1955",
+  :end "1972",
+  :name "First Sudanese Civil War",
+  :winners ("SSLM" "AZL" "Anyanya"),
+  :losers
+  ("Anglo-Egyptian Sudan"
+   "Republic of the Sudan"
+   "Democratic Republic of the Sudan")}
+ {:start "1955",
+  :end "1975",
+  :name "Vietnam War",
+  :winners
+  ("North Vietnam"
+   "FNL"
+   "Khmer Rouge"
+   "Khmer Issarak"
+   "Pathet Lao"
+   " North Korea"),
+  :losers
+  ("South Vietnam"
+   "United States of America"
+   " South Korea"
+   " Thailand"
+   " Australia"
+   " New Zealand"
+   "Kingdom of Laos"
+   "Khmer Republic")}
+ {:start "1956",
+  :end "1956",
+  :name "Hungarian Revolution of 1956",
+  :winners (" Soviet Union" "State Protection Authority"),
+  :losers ("Hungarian revolutionaries")}
+ {:start "1956",
+  :end "1956",
+  :name "Suez Crisis",
+  :winners (" Israel" " United Kingdom" "France"),
+  :losers ("Egypt")}
+ {:start "1957",
+  :end "1958",
+  :name "Ifni War",
+  :winners (" Spain" " France"),
+  :losers (" Morocco")}
+ {:start "1958",
+  :end "1959",
+  :name "North Vietnamese invasion of Laos",
+  :winners (" North Vietnam"),
+  :losers ("Kingdom of Laos")}
+ {:start "1959",
+  :end "1959",
+  :name "1959 Tibetan uprising",
+  :winners (" People's Republic of China"),
+  :losers (" Tibet" "Chushi Gangdruk")}
+ {:start "1959",
+  :end "2011",
+  :name "Basque conflict",
+  :winners (" Spain" "GAL" "AAA" "BVE" " France"),
+  :losers
+  ("ETA" "Basque National Liberation Movement" "ETA" "Iparretarrak")}
+ {:start "1960",
+  :end "1961",
+  :name "Campaign at the China–Burma Border",
+  :winners (" China" "Burma"),
+  :losers ("National Revolutionary Army")}
+ {:start "1960",
+  :end "1966",
+  :name "Congo Crisis",
+  :winners (),
+  :losers ()}
+ {:start "1960",
+  :end "1996",
+  :name "Guatemalan Civil War",
+  :winners ("Guatemalan military"),
+  :losers ("URNG")}
+ {:start "1961",
+  :end "1990",
+  :name "Nicaraguan Revolution",
+  :winners (),
+  :losers ()}
+ {:start "1961",
+  :end "1970",
+  :name "First Iraqi–Kurdish War",
+  :winners ("KDP"),
+  :losers ("Republic of Iraq" "Syrian Arab Republic")}
+ {:start "1961",
+  :end "1961",
+  :name "Bay of Pigs Invasion",
+  :winners (" Cuba"),
+  :losers ("United States of America" "Cuban exiles")}
+ {:start "1961",
+  :end "1961",
+  :name "Bizerte crisis",
+  :winners (" France"),
+  :losers (" Tunisia")}
+ {:start "1961",
+  :end "1991",
+  :name "Eritrean War of Independence",
+  :winners ("EPLF" "ELF"),
+  :losers ("Ethiopia" " Cuba" " Soviet Union" " South Yemen")}
+ {:start "1961",
+  :end "1961",
+  :name "Invasion of Goa",
+  :winners (" India"),
+  :losers (" Portugal")}
+ {:start "1961",
+  :end "1975",
+  :name "Angolan War of Independence",
+  :winners ("FNLA" "UNITA" "MPLA" "FLEC"),
+  :losers (" Portugal" " South Africa")}
+ {:start "1962",
+  :end "1964",
+  :name "Tuareg rebellion ",
+  :winners ("Mali"),
+  :losers ("Tuareg guerrillas")}
+ {:start "1962",
+  :end "1970",
+  :name "North Yemen Civil War",
+  :winners ("Yemen Arab Republic" " Egypt"),
+  :losers
+  ("Mutawakkilite Kingdom of Yemen"
    "Supported by:"
-   "Iraq")}
- {:start "2001",
-  :end "2001",
-  :name "2001 Indian–Bangladeshi border conflict",
-  :winners (),
-  :losers ()}
- {:start "2001",
-  :end "2001",
-  :name "Insurgency in the Republic of Macedonia",
-  :winners (),
-  :losers ()}
- {:start "2001",
+   "Saudi Arabia"
+   " Jordan"
+   "European Mercenaries")}
+ {:start "1962",
+  :end "1962",
+  :name "Sino-Indian War",
+  :winners (" China"),
+  :losers (" India")}
+ {:start "1962",
+  :end "1976",
+  :name "Dhofar Rebellion",
+  :winners (" Oman" "Iran" " United Kingdom" " Jordan"),
+  :losers
+  ("Dhofar Liberation Front"
+   "Popular Front for the Liberation of the Occupied Arabian Gulf"
+   "Popular Front for the Liberation of Oman")}
+ {:start "1963",
+  :end "1966",
+  :name "Indonesia–Malaysia confrontation",
+  :winners (" Malaysia" " United Kingdom" " Australia" " New Zealand"),
+  :losers (" Indonesia")}
+ {:start "1963",
+  :end "1967",
+  :name "Shifta War",
+  :winners (" Kenya"),
+  :losers
+  ("Northern Frontier District Liberation Movement" " Somalia")}
+ {:start "1963",
+  :end "1963",
+  :name "Sand War",
+  :winners (" Morocco"),
+  :losers (" Algeria")}
+ {:start "1963",
+  :end "1974",
+  :name "Guinea-Bissau War of Independence",
+  :winners ("PAIGC"),
+  :losers (" Portugal")}
+ {:start "1964",
+  :end "1979",
+  :name "Rhodesian Bush War",
+  :winners ("ZANU" "FRELIMO" "ZAPU" "MK"),
+  :losers (" Rhodesia" " Zimbabwe Rhodesia")}
+ {:start "1964",
   :end "Ongoing",
-  :name "War in Afghanistan ",
+  :name "Colombian conflict ",
   :winners (),
   :losers ()}
- {:start "2002",
+ {:start "1964",
+  :end "1974",
+  :name "Mozambican War of Independence",
+  :winners ("FRELIMO"),
+  :losers (" Portugal")}
+ {:start "1964",
   :end "Ongoing",
-  :name "Operation Enduring Freedom – Philippines",
+  :name "Insurgency in Northeast India",
   :winners (),
   :losers ()}
- {:start "2002",
+ {:start "1964",
+  :end "1964",
+  :name "Zanzibar Revolution",
+  :winners ("Afro-Shirazi Party" "Umma Party"),
+  :losers ("Sultanate of Zanzibar")}
+ {:start "1965",
+  :end "1965",
+  :name "Dominican Civil War",
+  :winners
+  ("Dominican Armed Forces Training Center"
+   "Dominican Military Intelligence Service"
+   "United States of America"
+   "Inter-American Peace Force"),
+  :losers
+  ("Dominican Armed Forces Constitutionalists" "PRD partisans")}
+ {:start "1965",
+  :end "1966",
+  :name "U.S. occupation of the Dominican Republic ",
+  :winners
+  ("United States of America"
+   "Inter-American Peace Force:"
+   "Brazil"
+   " Honduras"
+   " Paraguay"
+   " Nicaragua"
+   " Costa Rica"
+   " El Salvador"),
+  :losers (" Dominican Republic")}
+ {:start "1965",
+  :end "1965",
+  :name "Indo-Pakistani War of 1965",
+  :winners (),
+  :losers ()}
+ {:start "1965",
+  :end "1979",
+  :name "Chadian Civil War ",
+  :winners (),
+  :losers ("National Liberation Front of Chad")}
+ {:start "1966",
+  :end "1969",
+  :name "Korean DMZ Conflict ",
+  :winners (),
+  :losers ()}
+ {:start "1966",
+  :end "1989",
+  :name "South African Border War",
+  :winners (" Angola" " Cuba" "SWAPO" " Zambia" "Umkhonto we Sizwe"),
+  :losers (" South Africa" "UNITA")}
+ {:start "1966",
+  :end "1990",
+  :name "Namibian War of Independence",
+  :winners ("SWAPO"),
+  :losers (" South Africa")}
+ {:start "1967",
+  :end "1967",
+  :name "Six-Day War",
+  :winners (" Israel"),
+  :losers
+  (" Egypt"
+   " Syria"
+   " Jordan"
+   "Arab Expeditionary Forces:"
+   "Iraq"
+   "Saudi Arabia"
+   " Morocco"
+   " Algeria"
+   "Libya"
+   " Kuwait"
+   " Tunisia"
+   "Sudan"
+   "PLO"
+   "Other declared nations:"
+   " Mauritania")}
+ {:start "1967",
+  :end "1975",
+  :name "Cambodian Civil War",
+  :winners
+  ("National United Front of Kampuchea"
+   "Khmer Rouge"
+   " North Vietnam"
+   "Viet Cong"),
+  :losers
+  ("Khmer Republic" "United States of America" " South Vietnam")}
+ {:start "1967",
+  :end "1970",
+  :name "Nigerian Civil War",
+  :winners (" Nigeria"),
+  :losers (" Biafra")}
+ {:start "1967",
+  :end "1970",
+  :name "War of Attrition",
+  :winners (),
+  :losers ()}
+ {:start "1967",
   :end "Ongoing",
-  :name "Operation Enduring Freedom – Horn of Africa",
+  :name "Naxalite–Maoist insurgency",
   :winners (),
   :losers ()}
- {:start "2002",
+ {:start "1968",
+  :end "1989",
+  :name "Communist Insurgency War",
+  :winners (" Malaysia" " Thailand"),
+  :losers ("Malayan Communist Party")}
+ {:start "1968",
+  :end "1998",
+  :name "The Troubles",
+  :winners (" United Kingdom"),
+  :losers ("PIRA")}
+ {:start "1968",
+  :end "1968",
+  :name "Warsaw Pact invasion of Czechoslovakia",
+  :winners
+  (" Soviet Union"
+   "People's Republic of Bulgaria"
+   " East Germany"
+   "People's Republic of Hungary"
+   "People's Republic of Poland"),
+  :losers ("Czechoslovak Socialist Republic")}
+ {:start "1969",
+  :end "Ongoing",
+  :name "Civil conflict in the Philippines",
+  :winners (),
+  :losers ()}
+ {:start "1969",
+  :end "Ongoing",
+  :name "Insurgency of the Communist Party of the Philippines",
+  :winners (),
+  :losers ()}
+ {:start "1969",
+  :end "Ongoing",
+  :name "Moro insurgency in the Philippines",
+  :winners (),
+  :losers ()}
+ {:start "1969",
+  :end "1969",
+  :name "Football War",
+  :winners (" El Salvador"),
+  :losers (" Honduras")}
+ {:start "1969",
+  :end "1969",
+  :name "Sino-Soviet border conflict",
+  :winners (" Soviet Union"),
+  :losers (" China")}
+ {:start "1969",
+  :end "Ongoing",
+  :name "Papua conflict",
+  :winners (),
+  :losers ()}
+ {:start "1970",
+  :end "1971",
+  :name "Black September in Jordan",
+  :winners (" Jordan"),
+  :losers ("PLO" " Syria")}
+ {:start "1971",
+  :end "1971",
+  :name "Bangladesh Liberation War",
+  :winners ("Mukti Bahini" " India"),
+  :losers (" Pakistan")}
+ {:start "1971",
+  :end "1971",
+  :name "Indo-Pakistani War of 1971",
+  :winners (" India"),
+  :losers (" Pakistan")}
+ {:start "1972",
+  :end "1974",
+  :name "First Eritrean Civil War",
+  :winners ("EPLF"),
+  :losers ("ELF")}
+ {:start "1973",
+  :end "1973",
+  :name "Yom Kippur War",
+  :winners (" Israel"),
+  :losers
+  (" Egypt"
+   " Syria"
+   "Iraq"
+   " Jordan"
+   "Libya"
+   " Algeria"
+   " Saudi Arabia"
+   " Kuwait"
+   " Tunisia"
+   " Cuba"
+   " North Korea")}
+ {:start "1974",
+  :end "1974",
+  :name "Turkish invasion of Cyprus",
+  :winners (" Turkey"),
+  :losers ("Cyprus" " Greece")}
+ {:start "1974",
+  :end "1991",
+  :name "Ethiopian Civil War",
+  :winners
+  ("EPRP" "TPLF" "MEISON" "ANDM" "EDUP" "OLF" "ONLF" "WSLF" "ALF"),
+  :losers
+  ("Ethiopian government"
+   "Cuba"
+   "East Germany"
+   "Soviet Union"
+   " North Korea"
+   "Libya")}
+ {:start "1974",
+  :end "1975",
+  :name "Second Iraqi–Kurdish War",
+  :winners ("Ba'athist Iraq"),
+  :losers ("KDP")}
+ {:start "1975",
+  :end "2002",
+  :name "Angolan Civil War",
+  :winners ("MPLA" " Cuba" " Soviet Union" "SWAPO" "MK"),
+  :losers ("FNLA" "UNITA" " South Africa" "FLEC" " Zaire")}
+ {:start "1975",
+  :end "1991",
+  :name "Western Sahara War",
+  :winners (" Morocco" " Mauritania" " France"),
+  :losers ("Polisario Front" " Algeria")}
+ {:start "1975",
+  :end "1990",
+  :name "Lebanese Civil War",
+  :winners
+  (" Syria"
+   "PLA"
+   "ADF"
+   "LNM"
+   "LNRF"
+   "Amal"
+   "LCP"
+   "SSNP"
+   "PLO"
+   "Hezbollah"),
+  :losers
+  ("LF"
+   "Syria"
+   "Tigers Militia"
+   "ALZ"
+   " Israel"
+   "SLA"
+   "United States of America"
+   " France"
+   " Italy")}
+ {:start "1975",
+  :end "1989",
+  :name "Cambodian–Vietnamese War",
+  :winners (" Vietnam" "FUNSK"),
+  :losers ("Democratic Kampuchea")}
+ {:start "1975",
   :end "2007",
-  :name "First Ivorian Civil War",
+  :name "Insurgency in Laos",
+  :winners (" Laos" " Vietnam"),
+  :losers ("Hmong insurgents")}
+ {:start "1975",
+  :end "1975",
+  :name "Indonesian invasion of East Timor",
+  :winners (" Indonesia"),
+  :losers ("FRETILIN / Falintil")}
+ {:start "1976",
+  :end "2005",
+  :name "Insurgency in Aceh",
+  :winners (" Indonesia"),
+  :losers ("Free Aceh Movement")}
+ {:start "1977",
+  :end "1992",
+  :name "Mozambican Civil War",
+  :winners ("FRELIMO"),
+  :losers ("RENAMO")}
+ {:start "1977",
+  :end "1977",
+  :name "Libyan–Egyptian War",
+  :winners (" Egypt"),
+  :losers ("Libya")}
+ {:start "1977",
+  :end "1978",
+  :name "Ogaden War",
+  :winners ("Ethiopia" " Cuba" "South Yemen" " Soviet Union"),
+  :losers (" Somalia")}
+ {:start "1977",
+  :end "1977",
+  :name "Shaba I",
+  :winners (" Zaire" " Morocco" " Egypt" " France"),
+  :losers ("FNLC")}
+ {:start "1978",
+  :end "1978",
+  :name "Shaba II",
+  :winners (" Zaire" " France" " Belgium"),
+  :losers ("FNLC")}
+ {:start "1978",
+  :end "1979",
+  :name "Uganda–Tanzania War",
+  :winners (" Tanzania" "UNLA" " Mozambique"),
+  :losers (" Uganda" "Libya" "PLO")}
+ {:start "1978",
+  :end "1987",
+  :name "Chadian–Libyan conflict",
+  :winners ("CAF" " France" "FAN" "FANT"),
+  :losers ("Libya" "FROLINAT" "GUNT")}
+ {:start "1978",
+  :end "Ongoing",
+  :name "Kurdish–Turkish conflict",
+  :winners (" Turkey" "KDP" "PUK"),
+  :losers ("PKK" "KCK" "PJAK" "KDP/North")}
+ {:start "1979",
+  :end "1979",
+  :name "Sino-Vietnamese War",
+  :winners (),
+  :losers ()}
+ {:start "1979",
+  :end "1983",
+  :name "1979 Kurdish rebellion in Iran",
+  :winners (" Iran"),
+  :losers ("KDP-I")}
+ {:start "1979",
+  :end "1989",
+  :name "Soviet war in Afghanistan",
+  :winners ("Peshawar Seven" "Tehran Eight" "AMFFF"),
+  :losers (" Soviet Union" "Democratic Republic of Afghanistan")}
+ {:start "1979",
+  :end "1992",
+  :name "Salvadoran Civil War",
+  :winners ("Salvadoran government"),
+  :losers ("FMLN" "RN")}
+ {:start "1980",
+  :end "2000",
+  :name "Internal conflict in Peru",
+  :winners (" Peru" "Rondas Campesinas"),
+  :losers ("Shining Path" "Túpac Amaru Revolutionary Movement")}
+ {:start "1980",
+  :end "1981",
+  :name "Second Eritrean Civil War",
+  :winners ("Eritrean People's Liberation Front"),
+  :losers ("Eritrean Liberation Front")}
+ {:start "1981",
+  :end "1981",
+  :name "Paquisha War",
+  :winners (" Peru"),
+  :losers (" Ecuador")}
+ {:start "1981",
+  :end "1986",
+  :name "Ugandan Bush War",
+  :winners ("National Resistance Army"),
+  :losers ("Uganda National Liberation Army")}
+ {:start "1982",
+  :end "1982",
+  :name "Falklands War",
+  :winners (" United Kingdom"),
+  :losers (" Argentina")}
+ {:start "1982",
+  :end "1982",
+  :name "Ndogboyosoi War",
+  :winners (" Sierra Leone"),
+  :losers ("SLPP")}
+ {:start "1982",
+  :end "1985",
+  :name "1982 Lebanon War",
+  :winners (" Israel" "Lebanese Front" "SLA"),
+  :losers ("PLO" "Syria" "LNRF")}
+ {:start "1982",
+  :end "1982",
+  :name "1982 Ethiopian–Somali Border War",
+  :winners (" Somalia"),
+  :losers (" Ethiopia" "Somali Salvation Democratic Front")}
+ {:start "1983",
+  :end "1983",
+  :name "Invasion of Grenada",
+  :winners
+  ("United States of America"
+   " Antigua and Barbuda"
+   " Barbados"
+   " Dominica"
+   " Jamaica"
+   " Saint Lucia"
+   " Saint Vincent and the Grenadines"),
+  :losers (" Grenada" " Cuba")}
+ {:start "1983",
+  :end "2009",
+  :name "Sri Lankan Civil War",
+  :winners (" Sri Lanka" "India"),
+  :losers ("Tamil Tigers")}
+ {:start "1983",
+  :end "2005",
+  :name "Second Sudanese Civil War",
+  :winners
+  ("SPLA" "SPLA-Nasir" "SSLM" "Anyanya II" "Eastern Coalition"),
+  :losers ("Sudan" "SSDF" "Janjaweed" "LRA")}
+ {:start "1983",
+  :end "1988",
+  :name "Kurdish Rebellion of 1983",
+  :winners (),
+  :losers ()}
+ {:start "1984",
+  :end "1987",
+  :name "Siachen conflict",
+  :winners (" India"),
+  :losers (" Pakistan")}
+ {:start "1985",
+  :end "1985",
+  :name "Agacher Strip War",
+  :winners (" Mali"),
+  :losers (" Burkina Faso")}
+ {:start "1987",
+  :end "1987",
+  :name "1987 Sino-Indian skirmish",
+  :winners (),
+  :losers ()}
+ {:start "1987",
+  :end "1988",
+  :name "Thai–Laotian Border War",
+  :winners (" Laos" " Vietnam"),
+  :losers (" Thailand")}
+ {:start "1987",
+  :end "Ongoing",
+  :name "Lord's Resistance Army insurgency",
+  :winners (),
+  :losers ()}
+ {:start "1988",
+  :end "1994",
+  :name "Nagorno-Karabakh War",
+  :winners (" Nagorno-Karabakh" " Armenia"),
+  :losers (" Azerbaijan")}
+ {:start "1989",
+  :end "1991",
+  :name "Mauritania–Senegal Border War",
+  :winners (" Mauritania"),
+  :losers (" Senegal")}
+ {:start "1989",
+  :end "1990",
+  :name "U.S. invasion of Panama",
+  :winners ("United States of America"),
+  :losers (" Panama")}
+ {:start "1989",
+  :end "1992",
+  :name "Civil war in Afghanistan ",
+  :winners ("Mujahideen"),
+  :losers ("Democratic Republic of Afghanistan")}
+ {:start "1989",
+  :end "1989",
+  :name "Romanian Revolution of 1989",
+  :winners
+  ("Anti-Ceauşescu protestors"
+   "Romanian Army"
+   "Dissident members of the Communist Party"),
+  :losers
+  ("Socialist Republic of Romania"
+   "Securitate and other loyalist forces")}
+ {:start "1989",
+  :end "1996",
+  :name "First Liberian Civil War",
+  :winners ("National Patriotic Front of Liberia"),
+  :losers
+  ("Armed Forces of Liberia"
+   "ULIMO"
+   " United Nations"
+   "Independent National Patriotic Front of Liberia")}
+ {:start "1989",
+  :end "Ongoing",
+  :name "Insurgency in Jammu and Kashmir",
   :winners (),
   :losers ()}
  {:start "1500",
