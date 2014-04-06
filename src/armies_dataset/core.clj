@@ -4,8 +4,7 @@
             [clojure.java.io :as io]
             [clojure.string :as string]
             [net.cgrand.enlive-html :as html])
-  (:use [clojure.pprint :only [pprint]]
-        [incanter core stats charts datasets io])
+  (:use [clojure.pprint :only [pprint]])
   (:import [java.io StringReader PushbackReader]
            [com.google.common.base CharMatcher]))
 
@@ -239,7 +238,34 @@
         (doseq [row rows-with-header]
           (println row))))))
 
-(defn load-data-and-plot
+(def *wars-started-per-decade* "wars_started_per_decade.csv")
+
+(defn wars-started-per-decade
   []
-  (let [dataset (read-dataset "active_armies_by_decade.csv")]
-    (stacked-area-chart :data dataset)))
+  (let [data  (sort-by
+               first
+               (reduce
+                (fn [acc {start   :start
+                         end     :end     
+                         name    :name    
+                         winners :winners 
+                         losers  :losers}]
+                  (let [start-year
+                        (try (Integer/parseInt start)
+                             (catch NumberFormatException e nil))
+
+                        start-decade
+                        (if start-year (* 10 (quot start-year 10)) nil)]
+                    
+                    (if start-year
+                      (merge-with + acc {start-decade 1})
+                      acc)))
+                {}
+                (read
+                 (PushbackReader.
+                  (io/reader *stats-file*)))))]
+    (with-open [wrtr (io/writer *wars-started-per-decade*)]
+      (binding [*out* wrtr]
+        (println "Decade, Count")
+        (doseq [row data]
+          (println (string/join ", " row)))))))
