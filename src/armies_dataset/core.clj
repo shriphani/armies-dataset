@@ -24,6 +24,8 @@
 
 (def *per-decade-file* "participants_by_decade.clj")
 
+(def *top-players* "top_players.clj")
+
 (defn download-corpus
   []
   (pprint
@@ -143,3 +145,26 @@
                      {}
                      (participants-histogram))))]
     (pprint histogram (io/writer *per-decade-file*))))
+
+(defn important-entities-list
+  []
+  (let [per-decade (read
+                    (PushbackReader.
+                     (io/reader *per-decade-file*)))
+        participants (map
+                      first
+                      (sort-by
+                       second
+                       (filter
+                        (fn [[x n]]
+                          (>= n 4))
+                        (reduce
+                         (fn [acc freqs]
+                           (merge-with + acc freqs))
+                         (map
+                          (fn [[decade participants]]
+                            (into {} participants))
+                          per-decade)))))]
+    (pprint
+     participants
+     (io/writer *top-players*))))
