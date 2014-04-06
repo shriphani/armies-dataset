@@ -4,7 +4,8 @@
             [clojure.java.io :as io]
             [clojure.string :as string]
             [net.cgrand.enlive-html :as html])
-  (:use [clojure.pprint :only [pprint]])
+  (:use [clojure.pprint :only [pprint]]
+        [incanter core stats charts datasets io])
   (:import [java.io StringReader PushbackReader]
            [com.google.common.base CharMatcher]))
 
@@ -185,7 +186,7 @@
      (fn [[decade players]]
        (let [top10 (set
                     (take
-                     10
+                     5
                      (reverse
                       (sort-by
                        second
@@ -197,3 +198,48 @@
                       players))]
          [decade (sort-by second (clojure.set/union top10 in-top))]))
      (pprint per-decade-players (io/writer *active-armies-per-decade*)))))
+
+(defn generate-data-for-plot
+  []
+  (let [data (read
+              (PushbackReader.
+               (io/reader *active-armies-per-decade*)))
+        entities (flatten
+                  (map
+                   (fn [[decade players]]
+                     (map
+                      first
+                      players))
+                   data))
+
+        rows     (map
+                  (fn [[decade players]]
+                    (let [players-dict (into {} players)]
+                      (cons
+                       decade
+                       (map
+                        (fn [x]
+                          (or (players-dict x)
+                              0))
+                        entities))))
+                  data)
+
+        rows-with-header (map
+                          (fn [a-row]
+                            (string/join ", " a-row))
+                          (apply
+                           map
+                           list
+                           (cons (cons "Decade"
+                                       entities)
+                                 rows)))]
+
+    (with-open [wrtr (io/writer "active_armies_by_decade.csv")]
+      (binding [*out* wrtr]
+        (doseq [row rows-with-header]
+          (println row))))))
+
+(defn load-data-and-plot
+  []
+  (let [dataset (read-dataset "active_armies_by_decade.csv")]
+    (stacked-area-chart :data dataset)))
