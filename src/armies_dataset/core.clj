@@ -26,6 +26,8 @@
 
 (def *top-players* "top_players.clj")
 
+(def *active-armies-per-decade* "active_armies_per_decade.clj")
+
 (defn download-corpus
   []
   (pprint
@@ -168,3 +170,30 @@
     (pprint
      participants
      (io/writer *top-players*))))
+
+(defn active-armies-by-decade
+  []
+  (let [top-players (set
+                     (read
+                      (PushbackReader.
+                       (io/reader *top-players*))))
+
+        per-decade-players (read
+                            (PushbackReader.
+                             (io/reader *per-decade-file*)))]
+    (map
+     (fn [[decade players]]
+       (let [top10 (set
+                    (take
+                     10
+                     (reverse
+                      (sort-by
+                       second
+                       players))))
+             in-top (set
+                     (filter
+                      (fn [[x n]]
+                        (some #{x} top-players))
+                      players))]
+         [decade (sort-by second (clojure.set/union top10 in-top))]))
+     (pprint per-decade-players (io/writer *active-armies-per-decade*)))))
