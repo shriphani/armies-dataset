@@ -266,6 +266,6 @@
                   (io/reader *stats-file*)))))]
     (with-open [wrtr (io/writer *wars-started-per-decade*)]
       (binding [*out* wrtr]
-        (println "Decade, Count")
+        (println "Decade,Count")
         (doseq [row data]
-          (println (string/join ", " row)))))))
+          (println (string/join "," row)))))))
