@@ -303,3 +303,125 @@
         (println "Decade,Count")
         (doseq [row data]
           (println (string/join "," row)))))))
+
+(defn armies-engaged-per-decade
+  []
+  (let [data (sort-by
+              first
+              (reduce
+               (fn [acc {start   :start
+                        end     :end
+                        name    :name
+                        winners :winners
+                        losers  :losers}]
+                 (let [start-year
+                       (try (Integer/parseInt start)
+                            (catch NumberFormatException e nil))
+                      
+                       start-decade
+                       (if start-year (* 10 (quot start-year 10)) nil)
+
+                       participants (count
+                                     (clojure.set/union (set winners) (set losers)))]
+                   (if start-year
+                     (merge-with + acc {start-decade participants})
+                     acc)))
+               {}
+               (read
+                (PushbackReader.
+                 (io/reader *stats-file*)))))]
+    (with-open [wrtr (io/writer *armies-engaged-per-decade*)]
+      (binding [*out* wrtr]
+        (println "Decade,Count")
+        (doseq [row data]
+          (println (string/join "," row)))))))
+
+(defn most-active-armies-per-century
+  []
+  (let [data
+        (reduce
+         (fn [acc {start   :start
+                  end     :end
+                  name    :name
+                  winners :winners
+                  losers  :losers}]
+           (let [start-year
+                 (try (Integer/parseInt start)
+                      (catch NumberFormatException e nil))
+                 
+                 start-decade
+                 (if start-year (* 100 (quot start-year 100)) nil)
+
+                 winners-table (reduce
+                                (fn [acc w]
+                                  (merge-with + acc {w 1}))
+                                {}
+                                (distinct (map
+                                           #(.trimFrom CharMatcher/WHITESPACE %)
+                                           winners)))
+
+                 losers-table (reduce
+                               (fn [acc l]
+                                 (merge-with + acc {l 1}))
+                               {}
+                               (distinct (map
+                                          #(.trimFrom CharMatcher/WHITESPACE %)
+                                          losers)))
+                 
+                 participants-table (merge-with + winners-table losers-table)]
+             (if start-year
+               (merge-with
+                (fn [x y]
+                  (merge-with + x y))
+                acc
+                {start-decade participants-table})
+               acc)))
+         {}
+         (read
+          (PushbackReader.
+           (io/reader *stats-file*))))
+
+        per-century-most-active (sort-by
+                                 first
+                                 (map
+                                  (fn [[century tally]]
+                                    [century (take 5 (reverse (sort-by second tally)))])
+                                  data))]
+    (with-open [wrtr (io/writer "per_century_most_active.clj")]
+      (binding [*out* wrtr]
+       (do
+         (println "<div class='per-century-armies'>")
+         (doseq [[century entities] per-century-most-active]
+           (println "<strong>" century "A.D." "</strong>")
+           (println "<table border='1' style='margin-left:auto; margin-right:auto'><tr><th>Army</th><th>Number of Wars</th></tr>")
+           (doseq [[army count] entities]
+             (println (str "<tr><td>" army "</td><td>" count "</td></tr>")))
+           (println "</table>"
+                    "</td>"))
+         (println "</div>"))))))
+
+(defn most-active-armies-millennium
+  []
+  (take
+   10
+   (reverse
+    (sort-by
+     second
+     (reduce
+      (fn [acc {start   :start
+               end     :end
+               name    :name
+               winners :winners
+               losers  :losers}]
+        (let [participants (reduce
+                            (fn [acc p]
+                              (merge-with + acc {p 1}))
+                            {}
+                            (map
+                             #(.trimFrom CharMatcher/WHITESPACE %)
+                             (concat winners losers)))]
+          (merge-with + acc participants)))
+      {}
+      (read
+       (PushbackReader.
+        (io/reader *stats-file*))))))))
