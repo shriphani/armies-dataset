@@ -269,3 +269,37 @@
         (println "Decade,Count")
         (doseq [row data]
           (println (string/join "," row)))))))
+
+(def *armies-engaged-per-decade* "armies_engaged_per_decade.csv")
+
+(defn armies-engaged-per-decade
+  []
+  (let [data (sort-by
+              first
+              (reduce
+               (fn [acc {start   :start
+                        end     :end
+                        name    :name
+                        winners :winners
+                        losers  :losers}]
+                 (let [start-year
+                       (try (Integer/parseInt start)
+                            (catch NumberFormatException e nil))
+                      
+                       start-decade
+                       (if start-year (* 10 (quot start-year 10)) nil)
+
+                       participants (count
+                                     (clojure.set/union (set winners) (set losers)))]
+                   (if start-year
+                     (merge-with + acc {start-decade participants})
+                     acc)))
+               {}
+               (read
+                (PushbackReader.
+                 (io/reader *stats-file*)))))]
+    (with-open [wrtr (io/writer *armies-engaged-per-decade*)]
+      (binding [*out* wrtr]
+        (println "Decade,Count")
+        (doseq [row data]
+          (println (string/join "," row)))))))
