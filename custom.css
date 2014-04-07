@@ -1,0 +1,154 @@
+B/* custom.css */
+
+@0;95;cfont-face {
+    font-family: "Linux Libertine";
+    src: url("LinLibertine_R.woff") format('woff');
+}
+
+@font-face {
+    font-family: "Linux Libertine";
+    src: url("LinLibertine_RB.woff") format('woff');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Linux Libertine";
+    src: url("LinLibertine_RI.woff") format('woff');
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Linux Libertine";
+    src: url("LinLibertine_RBI.woff") format('woff');
+    font-style: italic;
+    font-weight: bold;
+}
+
+.content-centered {
+ margin: 0 auto !important;
+ float: none !important;
+}
+
+html {
+  height: 100%;
+}
+
+a {
+    color: #F90;
+}
+
+h1 {
+    font-family: constantia, "Hoefler Text", "Linux Libertine", Georgia;
+    font-size: 4.0em;
+    margin-bottom: 0.25em;
+}
+
+h1 a {
+    font-family: constantia, "Hoefler Text", "Linux Libertine", Georgia, 'Open Sans', sans-serif;
+    color: #333;
+    line-height: 100%;
+}
+
+#header {
+    margin-top: 4em;
+    margin-bottom: 2em;
+}
+
+h2 {
+    font-family: 'Helvetica Neue', serif;
+}
+
+h2 a { 
+    font-family:'Helvetica Neue', Georgia, serif; 
+    color: #000000; 
+    font-size: 48pt; 
+    line-height: 1.05em;
+    margin-top: 10px;
+}
+
+h2.post-title { 
+    font-family:'Helvetica Neue', Georgia, serif; 
+    color: #000000; 
+    line-height: 1.05em;
+    font-size: 48pt;
+}
+
+h3 {
+    margin-top: 1.5em;
+}
+
+div.container { color: #FFFFFF; }
+
+body {
+    font-family: constantia, "Hoefler Text", "Linux Libertine", Palatino, Georgia, 'Crimson Text', Garamond, 'EB Garamond';
+    -moz-font-feature-settings: "ccmp", "onum", "pnum";
+    -webkit-font-feature-settings: "ccmp", "onum", "pnum";
+    font-size: 18pt;
+    line-height: 1.3;
+}
+
+code {
+    color: black;
+}
+
+/* When highlighted code blocks are too wide, they wrap. Resulting in the */
+/* line numbers column's rows not lining up with the code rows. Prevent */
+/* wrapping. */
+pre {
+    white-space: pre;
+    width: inherit;
+    font-family: Consolas, Monaco, Menlo;
+    font-size: 14px;
+}
+
+ul.navbar li { display: inline; list-style-type: none; margin-right:0.25em; }
+
+p.date-and-tags { 
+    font-size: 0.75em;
+    font-family: 'Helvetica', 'Arial';
+    color: gray;
+    text-indent: 1em;
+}
+
+p {
+    margin-top: 1em;
+}
+
+.centered {
+    margin-left: 27.659574468085104%;
+    margin-right: 27.659574468085104%;
+}
+
+html {
+    height: 100%;
+}
+
+.footer {
+  position: absolute;
+  clear:both;
+  padding-top:20px;
+  margin-left:25.641025641025642%;
+  width:48.717948717948715%;
+}
+
+li {
+  line-height: 150%;
+}
+
+.index-post {
+  margin-bottom: 3em;
+}
+
+table.tags-table {
+  font-size: 14px;
+  width: 460px;
+}
+
+ul.pagination li {
+  display: inline-block;
+  border-sizing:border-box;
+}
+
+article {
+  padding-top:40px;
+}

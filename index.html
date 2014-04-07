@@ -2,11 +2,25 @@
 <html>
 	<head>
 		<title>Wars - 1000 to Present</title>
-		<script src="http://d3js.org/d3.v3.js" charset="utf-8"></script>
+		<script src="d3.js" charset="utf-8"></script>
+    <link rel="stylesheet" type="text/css" href="custom.css">
 		<style type="text/css">
-			body {
+			div.wars_started_per_decade {
 				font: 10px sans-serif;
 			}
+
+      body {
+        font-family: Georgia;
+        text-align: center;
+      }
+
+      ul {
+        text-align: center;
+      }
+
+      li {
+        text-align: left;
+      }
 
 			.axis path,
 			.axis line {
@@ -37,10 +51,34 @@
 		</style>
 	</head>
 	<body>
+    <h1>Visualizing The History of War</h1>
+
+    <blockquote>... the history of the world is the history of war.</blockquote>
+    <small>- Lt. Col. Charles à Court Repington</p></small>
+
+    This is an attempt to visualize and study the history of warfare - how many wars mankind
+    has engaged in, who wages the most and so on. Links to the source code and the datasets
+    are provided at the end of this document. The datasets were constructed by processing
+    <a href="http://en.wikipedia.org/wiki/Category:Lists_of_wars_by_date">this Wikipedia page</a>.
+
+    The first plot I constructed was of the number of wars initiated per decade from 1000 A.D. to the present
+    date. The plot looks like this:
+
 		<div class="wars_started_per_decade"></div>
+
+    The few interesting spikes we observe are:
+
+    <ul>
+      <li><strong>1510-1519 AD:</strong> Apparently this was the result of Ottoman aggression.</li>
+      <li><strong>1640-1649 AD:</strong> A massive spike but no real correlation between the various events.</li>
+      <li><strong>1800-1809 AD:</strong> A massive spike that was driven completely by European colonial powers. Nearly every war was started by a European colonial power.</li>
+      <li><strong>1860-1869 AD:</strong> A large chunk of battles fought in this era were parts of the American and Japanese civil wars.</li>
+      <li><strong>1940-1947 AD:</strong> World War I, The Banana Wars and Saudi Arabian Unification.</li>
+      <li><strong>1990-1999 AD:</strong> A <i>massive</i> number of civil wars in Africa, Central Asia and general insanity in the middle east.</li>
+    </ul>
 		<script type="text/javascript">
 			var margin = {top: 20, right: 20, bottom: 50, left: 50},
-				width = 1100 - margin.left - margin.right,
+				width = 1200 - margin.left - margin.right,
 				height = 600 - margin.top - margin.bottom;
 
 			var x = d3.scale.linear().range([0, width]);
@@ -128,7 +166,7 @@
     			d = x0 - d0.Decade > d1.Decade - x0 ? d1 : d0;
 
         		focus.attr("transform", "translate(" + x(d.Decade) + "," + y(d.Count) + ")");
-    			focus.select("text").text(d.Count);
+    			focus.select("text").text("(" + d.Decade + "," + d.Count + ")");
   			}
       		});
 		</script>
